@@ -4,7 +4,7 @@ pipeline {
     stage('Test') {
       steps {
         echo 'Hello there'
-        sh 'C:\\apache-maven-3.2.5\\bin\\mvn test'
+        bat 'C:\\apache-maven-3.2.5\\bin\\mvn test'
       }
     }
     stage('Install') {
